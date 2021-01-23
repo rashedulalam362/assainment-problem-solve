@@ -1,6 +1,8 @@
 
      
 
+//https://github.com/rashedulalam362/assainment-problem-solve
+
 function megaFriend(array) {
     var friends = "";
   

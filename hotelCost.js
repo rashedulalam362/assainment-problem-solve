@@ -1,44 +1,33 @@
-// function hotelCost (days){
+//https://github.com/rashedulalam362/assainment-problem-solve
 
-//     if (days<=10){
-//         hotelCost =days*100
 
-//     }
+function hotelCost (days){
+var days;
+    if (days<=10){
+      hotelFare =days*100;
+     
+    }
 
-//   else if(days>10 && 20){
-//     hotelCost =days*80
+    if (days<=20){
+      var hotelFare =days*80;
+       
+      }
 
-//   }
-
-//   else if (days>20){
-//     hotelCost =days*50
-//   }
-//   return hotelCost
+      if (days>20){
+        hotelFare =days*50;
+         
+        }
+  
  
 
-// }
+  return hotelFare
+
+
+ 
+}
 
 
 
-// var result =hotelCost(10)
+var result=hotelCost(13)
+console.log(result)
 
-
-function brickCalculator(floor){
-
-    if (floor<=10){
-      
-        return 15*1000
-    }else if(floor<=20){
-    
-        return 12*1000
-    }else if (floor<=30){
-    
-        return 10*1000
-    }
-      
-    
-    }
-    
-    var result=brickCalculator(35);
-    
-    console.log(result); 
